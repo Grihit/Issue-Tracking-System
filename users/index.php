@@ -140,7 +140,7 @@ echo htmlentities($msg);
 		                      </div>
 		                      <div class="modal-body">
 		                          <p>Enter your details below to reset your password.</p>
-<input type="email" name="email" placeholder="block" autocomplete="off" class="form-control" required><br >
+<input type="email" name="email" placeholder="email" autocomplete="off" class="form-control" required><br >
 <input type="text" name="contact" placeholder="contact No" autocomplete="off" class="form-control" required><br>
  <input type="password" class="form-control" placeholder="New Password" id="password" name="password"  required ><br />
 <input type="password" class="form-control unicase-form-control text-input" placeholder="Confirm Password" id="confirmpassword" name="confirmpassword" required >
