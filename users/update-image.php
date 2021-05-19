@@ -35,7 +35,7 @@ move_uploaded_file($_FILES["image"]["tmp_name"],"userimages/".$imgnewfile);
 $query=mysqli_query($con,"update users set userImage='$imgnewfile' where userEmail='".$_SESSION['login']."'");
 if($query)
 {
-$successmsg="Profile photo Successfully !!";
+$successmsg="Profile photo updated Successfully !!";
 }
 else
 {
