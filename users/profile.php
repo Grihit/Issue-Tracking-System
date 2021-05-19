@@ -22,7 +22,7 @@ $pincode=$_POST['pincode'];
 $query=mysqli_query($con,"update users set fullName='$fname',contactNo='$contactno',address='$address',State='$state',country='$country',pincode='$pincode' where userEmail='".$_SESSION['login']."'");
 if($query)
 {
-$successmsg="Profile Successfully !!";
+$successmsg="Profile Updated Successfully !!";
 }
 else
 {
