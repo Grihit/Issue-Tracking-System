@@ -45,7 +45,7 @@ else{
 
       <section id="main-content">
           <section class="wrapper">
-          	<h3><i class="fa fa-angle-right"></i>Your Issue Hstory</h3>
+          	<h3><i class="fa fa-angle-right"></i>Your Issue History</h3>
 		  		<div class="row mt">
 			  		<div class="col-lg-12">
                       <div class="content-panel">
