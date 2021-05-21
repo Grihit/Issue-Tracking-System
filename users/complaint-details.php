@@ -68,7 +68,7 @@ while($row=mysqli_fetch_array($query))
               <div class="col-sm-4">
               <p><?php echo htmlentities($row['complaintType']);?></p>
               </div>
-<label class="col-sm-2 col-sm-2 control-label"><b>Block :</b></label>
+<label class="col-sm-2 col-sm-2 control-label"><b>State :</b></label>
               <div class="col-sm-4">
               <p><?php echo htmlentities($row['state']);?></p>
               </div>
