@@ -22,7 +22,7 @@ $successmsg="Password Changed Successfully !!";
 }
 else
 {
-$errormsg="Old Password not match !!";
+$errormsg="Old Password does not match !!";
 }
 }
 ?>
